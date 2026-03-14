@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1918
     height: 980
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 37
+  controlID: 101
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -594,7 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Utils
+    - Assets/Scripts/Board
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -604,23 +604,22 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Utils
+  - Assets/Scripts/Board
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\kanut\tic_tac_toe
+  m_LastProjectPath: D:\tic_tac_toe
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 68170
+    - m_Data: 61634
     m_LastClickedID:
-      m_Data: 68170
+      m_Data: 61634
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 57076
-    - m_Data: 57494
-    - m_Data: 62326
+    - m_Data: 61390
+    - m_Data: 61396
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -680,8 +679,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 32528
+    m_LastClickedInstanceID: 32528
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -805,35 +805,14 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 32528
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -113578
-      - m_Data: -113228
-      - m_Data: -112450
-      - m_Data: -112440
-      - m_Data: -97550
-      - m_Data: -96006
-      - m_Data: -95718
-      - m_Data: -94934
-      - m_Data: -94916
-      - m_Data: -94576
-      - m_Data: -89778
-      - m_Data: -89242
-      - m_Data: -37188
-      - m_Data: -37072
-      - m_Data: -36034
-      - m_Data: -35904
-      - m_Data: -35640
-      - m_Data: -34540
-      - m_Data: -23652
-      - m_Data: -23400
-      - m_Data: -23252
-      - m_Data: -23104
-      - m_Data: -22956
-      - m_Data: -20628
-      - m_Data: -12
+      - m_Data: -47688
+      - m_Data: -47360
+      - m_Data: -45870
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1288,7 +1267,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 452.51706, y: 268.1791, z: -10.716332}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1336,11 +1315,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.15399133, y: 0.34775776, z: -0.058017112, w: 0.92303145}
     speed: 2
-    m_Value: {x: -0.022806449, y: -0.010213891, z: 0.00023283614, w: -0.9996877}
+    m_Value: {x: 0.1539912, y: 0.34775746, z: -0.058017064, w: 0.9230307}
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 170.36496
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1498,10 +1477,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 632
-    width: 1465
-    height: 354
+    x: 1
+    y: 635
+    width: 1463
+    height: 350
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
