@@ -123,6 +123,7 @@ namespace TicTacToe.Board
         int y = i / 3;
         _slotsXY[x, y] = _slots[i];
         _slots[i].ClearState();
+        _slots[i].Initialize(x, y);
       }
 
       CurrentPlayer = SlotState.X;

@@ -4,10 +4,27 @@ using UnityEngine;
 
 namespace TicTacToe.Board
 {
+  public class Position
+  {
+    public int X { get; }
+    public int Y { get; }
+    public Position(int x, int y)
+    {
+      X = x;
+      Y = y;
+    }
+  }
+
   public class Slot : MonoBehaviour
   {
     [SerializeField] private TMP_Text _text;
     public SlotState State { get; private set; } = SlotState.Empty;
+    public Position Position { get; private set; }
+
+    public void Initialize(int x, int y)
+    {
+      Position = new Position(x, y);
+    }
 
     public void SetState()
     {
